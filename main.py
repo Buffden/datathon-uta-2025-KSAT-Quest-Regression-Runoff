@@ -1,16 +1,15 @@
-# Step 1: Import the essential libraries
 import pandas as pd
 
-# Step 2: Load the dataset
+# Load the KSAT dataset
 df = pd.read_csv("USKSAT_OpenRefined_Cleaned.csv")
 
-# Step 3: View dataset shape (rows, columns)
-print("Dataset shape:", df.shape)
+# Show shape
+print("📊 Dataset shape (rows, columns):", df.shape)
 
-# Step 4: View column names and datatypes
-print("\nDataset info:")
+# Show basic info
+print("\n🔍 Dataset info:")
 print(df.info())
 
-# Step 5: Preview first few rows
-print("\nFirst 5 rows:")
+# Show a few rows
+print("\n🧠 First few rows:")
 print(df.head())
